@@ -10,7 +10,7 @@ fn main() {
     let matches = App::new("ynq")
         .version(crate_version!())
         .author(crate_authors!())
-        .about("Very simple utility to ask a yes/no question")
+        .about("A very simple utility to ask a yes/no question")
         .arg(
             Arg::with_name("default choice")
                 .help("The default choice for the answer")
